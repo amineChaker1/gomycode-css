@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+header nav {
+  background-color: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  box-shadow: -1px 4px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 3vmin;
+}
+header nav a {
+  margin-right: 6vmin;
+  text-decoration: none;
+  color: #000000;
+}
+main .first {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vmin;
+}
+main .first .header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .first .header-info h1 {
+  font-weight: 400;
+  font-size: 3vw;
+}
+main .first .header-info span {
+  background: linear-gradient(180deg, #ff0000 7.96%, #4325f9 40.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+main .first .header-img img {
+  width: 80%;
+}
+main .second {
+  background-color: #bebaff;
+  padding: 80px 0;
+}
+main .second .info h2 {
+  margin-bottom: 1vmin;
+}
+main .second .info {
+  text-align: center;
+  margin-bottom: 5vmin;
+}
+main .info-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .info-images img {
+  width: 80%;
+  margin-bottom: 3vmin;
+}
+main .third {
+  display: flex;
+  padding: 80px 10px;
+}
+main .contact-img {
+  width: 50%;
+  margin-right: 20vmin;
+}
+main .contact-img img {
+  width: 40vw;
+}
+main .contact {
+  width: 50%;
+}
+main .contact h3 {
+  font-size: 3vw;
+}
+main .contact form input,
+textarea {
+  background-color: #d9d9d970;
+  border: 0;
+  border-radius: 5px;
+  width: 80%;
+}
+main .contact form input {
+  padding: 6px;
+  border-radius: 5px;
+  width: 80%;
+}
+main .contact form textarea {
+  margin-bottom: 3vmin;
+}
+main .contact form button {
+  background-color: #4325f9;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
